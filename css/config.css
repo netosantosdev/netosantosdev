@@ -83,3 +83,41 @@ footer{
     justify-content: center;
     grid-area: footer;
 }
+
+@media (max-width: 501px) {
+
+    header{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    
+    .container-square{
+        flex-direction: column;
+    }
+    #grid-conf-page-2{
+        grid-template-rows: 13vh 137vh 7vh;
+    }
+    .page-2-container-desc{
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 5px;
+        gap: 10px;
+    }
+    .square{
+        width: 125px;
+        height: 100px;
+    }
+    .element-move-mobile{
+
+        display: flex;
+        flex-direction: row;
+    }
+    .container-text{
+        font-size: 0.7rem;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}

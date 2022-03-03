@@ -51,19 +51,19 @@
     display: flex;
     flex-direction: row;
 }
-.square-violet{
+
+.square{
     width: 250px;
     height: 200px;
+}
+
+.square-violet{
     background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
 }
 .square-orange{
-    width: 250px;
-    height: 200px;
-    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    background-image: linear-gradient(-20deg, #fc6075 0%, #ff9a44 100%);
 }
 .square-blue{
-    width: 250px;
-    height: 200px;
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 
