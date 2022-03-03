@@ -108,7 +108,7 @@ footer{
         width: 125px;
         height: 100px;
     }
-    .element-move-mobile{
+    #element-move-mobile{
 
         display: flex;
         flex-direction: row;
