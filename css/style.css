@@ -1,82 +1,99 @@
 /* fonts */
-.logo-nav{
-    font-family:'DM Sans';
-    color: #fff;
-    font-size: 1.5rem;
-    opacity: 0.7;
+.logo-nav {
+	font-family: "DM Sans";
+	color: #fff;
+	font-size: 1.5rem;
+	opacity: 0.7;
 }
 
-.nav-link{
-    font-family: 'Sen';
-    color: #fff;
-    opacity: 0.7;
+.nav-link {
+	font-family: "Sen";
+	color: #fff;
+	opacity: 0.7;
 }
 
-.nav-link:hover{
-    color:#fff;
-    opacity: 1;
+.nav-link:hover {
+	color: #fff;
+	opacity: 1;
 }
 /* ----------- */
 
 /* Social Media Styles */
-.nav-social-media{
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.nav-social-media {
+	gap: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-.social-img{
-    width: 35px;
-    height: 30px;
+.social-img {
+	width: 35px;
+	height: 30px;
 }
 /* Container Styles */
-.container-1{
-
+.container-1 {
 }
 
-.container-title{
-    font-family: 'DM Sans';
-    font-size: 3rem;
+.container-title {
+	font-family: "DM Sans";
+	font-size: 3rem;
 }
-.container-desc{
-    font-size: 1.1rem;
-
+.container-desc {
+	font-size: 1.1rem;
 }
-
 
 /* Page 2 */
-.container-square{
-    gap: 8px;
-    display: flex;
-    flex-direction: row;
+.container-square {
+	gap: 8px;
+	display: flex;
+	flex-direction: row;
 }
 
-.square{
-    width: 250px;
-    height: 200px;
+.square {
+	padding-top: 0;
+	padding-left: 30px;
+	width: 250px;
+	height: 200px;
+	transition: 0.5s ease-in;
+}
+.square:hover {
+	padding-top: 10px;
+	padding-left: 40px;
+	width: 270px;
+	height: 220px;
+	gap: 10px;
+	transition: 0.5s ease-out;
 }
 
-.square-violet{
-    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+.square-violet {
+	background-image: linear-gradient(
+		-225deg,
+		#ff057c 0%,
+		#8d0b93 50%,
+		#321575 100%
+	);
 }
-.square-orange{
-    background-image: linear-gradient(-20deg, #fc6075 0%, #ff9a44 100%);
+.square-orange {
+	background-image: linear-gradient(-20deg, #fc6075 0%, #ff9a44 100%);
 }
-.square-blue{
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+.square-blue {
+	background-image: linear-gradient(
+		to top,
+		#1e3c72 0%,
+		#1e3c72 1%,
+		#2a5298 100%
+	);
 }
 
-
-.container-text{
-    font-size: 0.8rem;
+.container-text {
+	font-size: 0.8rem;
 }
 
-.title-g{
-    margin-bottom: 25px;
-    font-size: 3.5rem;
+.title-g {
+	margin-bottom: 25px;
+	font-size: 3.5rem;
 }
-.title-d{
-    font-size: 1.5rem;
-    margin-bottom: 25px;
+.title-d {
+	font-size: 1.5rem;
+	margin-bottom: 25px;
 }
